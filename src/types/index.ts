@@ -8,3 +8,5 @@ export type Patient = {
 }
 
 export type DraftPatient = Omit<Patient, 'id'>
+
+//
